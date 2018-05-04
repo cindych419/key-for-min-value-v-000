@@ -10,12 +10,5 @@ name_hash.collect do |name, age|
     lowest_key = name
   end
 end
-lowest_value=nil
-  name_hash.collect do |name, age|
-   if lowest_value>age
-  lowest_value=age
-    name
-  end
-end
 lowest_value
 end
